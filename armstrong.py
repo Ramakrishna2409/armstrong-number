@@ -7,7 +7,7 @@ while temp>0:
     sum+=digit**3
     temp//=10
     
-if temp==num:
+if sum==num:
     print("armstrong")
 else:
     print("not armstrong")
